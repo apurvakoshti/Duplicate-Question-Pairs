@@ -10,7 +10,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 
 cv = pickle.load(open(os.path.join(BASE_DIR, 'cv.pkl'), 'rb'))
-model = pickle.load(open(os.path.join(BASE_DIR, 'model.pkl'), 'rb'))
+
 
 
 def test_common_words(q1,q2):
